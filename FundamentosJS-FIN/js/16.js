@@ -4,7 +4,7 @@ const numeros = [10, 20, 30]
 // Filter
 nuevoArray = tecnologias.filter( tech => tech !== 'React')
 
-// Comprobar si un elemento existe en el array
+// includes-Comprobar si un elemento existe en el array
 // const resultado = tecnologias.includes('GraphQL')
 
 // Some - Devuelve si al menos uno cumple la condición
