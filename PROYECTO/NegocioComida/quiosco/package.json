@@ -1,0 +1,27 @@
+{
+  "name": "quiosco",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "prisma": {
+    "seed":"ts-node ./prisma/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.8.1",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "prisma": "^5.8.1",
+    "tailwindcss": "^3.3.0"
+  }
+}
